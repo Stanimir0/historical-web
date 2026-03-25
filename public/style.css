@@ -149,9 +149,23 @@ button {
   box-shadow: var(--shadow2);
 }
 
+.brand__logo {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+}
+
 .brand__text {
   font-size: 15px;
   color: var(--text);
+}
+
+.hero__logo {
+  width: 112px;
+  height: 112px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.28));
 }
 
 .nav {
