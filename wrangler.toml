@@ -5,3 +5,9 @@ compatibility_date = "2026-03-25"
 # Serve the static landing page from ./public
 assets = { directory = "./public" }
 
+# Bind worker to your custom domains
+routes = [
+  { pattern = "historical-web.site/*", zone_name = "historical-web.site" },
+  { pattern = "www.historical-web.site/*", zone_name = "historical-web.site" }
+]
+
